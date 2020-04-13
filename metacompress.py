@@ -22,6 +22,7 @@ def unzip_file(file_path, output_path):
 end_text = '''
 write_bytes("mah_bytes.zip", mah_bytes)
 unzip_file("mah_bytes.zip", "./unzipped_files")
+os.remove("unzipped_files/Python.zip")
 '''
 
 
